@@ -1,0 +1,7 @@
+{
+  "name": "Slyntos AI",
+  "description": "The world's most powerful AI assistant. Built for speed, intelligence, and creativity. Create videos, build websites, and master any subject with Slyntos AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
