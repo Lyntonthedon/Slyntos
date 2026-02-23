@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [react()],
-      base: '/Slyntos/',  // ← ADD THIS LINE (capital S matches your repo)
+      base: '/',  // ← CHANGED to root for custom domain
       define: {
         'process.env.GOOGLE_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
         'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
