@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+    <link rel="apple-touch-icon" href="vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Slyntos AI | Professional Workspace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <link rel="manifest" href="/Slyntos/assets/manifest-BpuyGtOY.json" />
+    <meta name="theme-color" content="#0d0d0d" />
+
+<style>
+  /* Global Chrome/Layout Fixes */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #080808;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    overscroll-behavior-y: none;
+    height: 100%;
+  }
+
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Professional Pattern */
+  .spot-pattern {
+    background-image: radial-gradient(circle, #1a1a1a 1px, transparent 1px);
+    background-size: 16px 16px;
+  }
+
+  .glass-dark {
+    background: rgba(10, 10, 10, 0.95);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #1a1a1a; border-radius: 20px; }
+  ::-webkit-scrollbar-thumb:hover { background: #222; }
+  
+  input, textarea { font-size: 16px !important; }
+  
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .animate-fade-in { animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+
+  /* Flex Child Fixes */
+  .flex > * {
+    min-width: 0;
+  }
+</style>
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react/": "https://esm.sh/react@19.0.0/",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/": "https://esm.sh/react-dom@19.0.0/",
+    "@google/genai": "https://esm.sh/@google/genai@1.25.0",
+    "react-markdown": "https://esm.sh/react-markdown@9.0.1?external=react,react-dom",
+    "remark-gfm": "https://esm.sh/remark-gfm@4.0.0",
+    "remark-math": "https://esm.sh/remark-math@6.0.0",
+    "rehype-katex": "https://esm.sh/rehype-katex@7.0.0",
+    "jszip": "https://esm.sh/jszip@3.10.1",
+    "idb": "https://esm.sh/idb@8.0.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/Slyntos/assets/index-Ci89z8M8.js"></script>
+</head>
+  <body class="spot-pattern">
+    <div id="root"></div>
+</body>
+</html>
